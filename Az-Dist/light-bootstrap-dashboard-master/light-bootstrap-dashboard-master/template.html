@@ -92,26 +92,65 @@
 
         <div class="content">
             <div class="container-fluid">
-                <div class="row">
-                     <section>
-        
-                   <h2>About <small>Our Bitcoin Wallet</small></h2>
-                        <p>Version 1.6</p>
-                        <p>Compatible with bitcoin core</p>
-                        <p>
-                           Compatibility with  other ERC-20 coins pending.  
-                        </p>
-                        <p>
-                            Azania:<br> Azania is an enterprise sidechain that will gives users Bitcoin, ethereum and NAS blockchain functionality. It's main feauture will be the Blockchain City.<br> This will allow for geo-tag transactions, data mining through data exchanges, a trustless aggreement which will be a ready to use automated multisigniture aggreement for enterprises that want to automate either data or financial transactions.<br> Azania is the 1st walet to offer data transactions.<br> They allow for companies to charge people to use their unused disk space to earn more money through "renting it out" to other companies and also rent space from other computers or pools to decrease the cost that comes from cloud or traditional storage.
+                 <form name="contentForm" enctype="multipart/form-data" method="" action="" role="form" data-toggle="validator" novalidate="true">
+          <div class="form schedule-assessment">
+            <div class="row margin-top-l">
+            <div class="form-group col-md-6">
+              <label for="full_name" class="sr-only">Full Name: </label>
+              <input name="full_name" id="full_name" placeholder="Full name" type="text" value="" required="required" data-error="Please enter your full name.">
+              <div class="help-block with-errors"></div>
+            </div><!-- close col-->  
+            <div class="form-group col-md-6">
+              <label for="phone_number" class="sr-only">Phone Number: </label>
+              <input name="phone_number" id="phone_number" placeholder="Phone number" type="text" value="" required="required" data-error="Please enter your phone number">
+              <div class="help-block with-errors"></div>
+            </div><!-- close col-->
+            </div><!-- close row-->
 
-                        </p>
-                        <h3>What is a Bitcoin Wallet?</h3>
-                        <p>A bitcoin wallet is a digital wallet that allows you to make decentralised transaction through an encrypted currency that is not controlled by an in individual, organisation, or any type of institution.</p>
-                        <h3>Support</h3>
-                        <p> If you find a problem, start by emailing azaniasupport@gmail.com</p>
-                        <h3>Broker</h3>
-                        <p>Our Broker <a href="bitcoin:18w5tiAXd1pvof8LH7jupsA4hzUoEeBAuv">18w5tiAXd1pvof8LH7jupsA4hzUoEeBAuv</a> Brokers make multi-currency transactions faster, they are not intermidiaries. </p>
-                    </div>
+            <div class="row">
+            <div class="form-group col-md-6">
+              <label for="email" class="sr-only">Email Address: </label>
+              <input name="email" id="email" placeholder="Email Address" type="email" value="" required="required" data-error="Please enter a valid email.">
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="select_options" class="sr-only">What crypto are your interested in? </label>
+              <select name="select_options" required="required" data-error="Please select one option.">
+              <option value="">What crypto service are you interested in?</option>
+              <option value="Web Design">SD Chain</option>
+              <option value="Web Support">X</option>
+              <option value="Digital Marketing">Y</option>
+              <option value="CMS Integration">Z</option>
+              <option value="Other">Other</option>
+              </select>
+              <div class="help-block with-errors"></div>
+            </div>
+            </div><!-- close row-->
+            
+            <div class="row">
+            <div class="form-group col-md-12">
+              <div class="text-center">
+              <label>Do you want to receive crypto updates?</label>
+              <div class="radio">
+                <label>
+                <input type="radio" name="digital_brochure" value="yes" required>
+                Yes, absolutely free money!
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                <input type="radio" name="digital_brochure" value="no" required>
+                No thanks.
+                </label>
+              </div>
+              </div>
+            </div>
+            </div><!-- close row-->
+            <div class="form-group text-center">
+            <input class="submit center-block btn btn-primary" value="Submit" type="submit">
+            </div>
+          </div>
+
 
 
 
